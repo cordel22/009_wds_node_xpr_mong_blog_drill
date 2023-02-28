@@ -9,7 +9,8 @@ const app = express()
 
 const  mongoose = require('mongoose');
 //	this is the database not populated automatically yet for mdn node expresss tutoril not used b4
-const  mongoDB = 'mongodb+srv://cordel22:dopici123@cluster0.ioypxqt.mongodb.net/?retryWrites=true&w=majority';
+//	const  mongoDB = 'mongodb+srv://cordel22:dopici123@cluster0.ioypxqt.mongodb.net/?retryWrites=true&w=majority';
+const  mongoDB = 'mongodb+srv://cordelfenevall:dopici123@cluster0.jxjw1ew.mongodb.net/?retryWrites=true&w=majority';
 
 mongoose.connect(mongoDB, { useNewUrlParser: true , useUnifiedTopology: true});
 var db = mongoose.connection;
